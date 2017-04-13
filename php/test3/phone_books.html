@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Phone Books</title>
+<style type="text/css">
+#main_heading {
+    text-align: center;
+}
+</style>
+</head>
+<body>
+<form action="phone_books.php" method="post">
+<h1 id="main_heading">Phone Books</h1>
+
+<input id="faculty_phone_book" type="radio" name="phone_book_type" value="faculty" />
+<label for="faculty_phone_book">Faculty Phone Book</label>
+<br />
+<input id="student_phone_book" type="radio" name="phone_book_type" value="student" />
+<label for="student_phone_book">Student Phone Book</label>
+<br />
+<input type="submit" value="Display Report">
+<br />
+</form>
+</body>
+</html>

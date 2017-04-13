@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Faculty Salaries</title>
+<style type="text/css">
+#main_heading {
+    text-align: center;
+}
+</style>
+</head>
+<body>
+<form action="faculty_salaries.php" method="post">
+<h1 id="main_heading">Faculty Salaries</h1>
+
+Print faculty salaries for the following faculty
+<select name="faculty_members[]" multiple="multiple" size="11">
+   <option value="210">Brewster_Mary</option>
+   <option value="180">Brown_Sue</option>
+   <option value="120">Burnside_Mike</option>
+   <option value="190">Burris_Al</option>
+   <option value="150">Dokes_Joe</option>
+   <option value="170">Edwards_Ann</option>
+   <option value="140">Marshall_Art</option>
+   <option value="110">Michaels_Brenda</option>
+   <option value="200">Newman_Edgar</option>
+   <option value="160">Rogers_Mike</option>
+   <option value="130">Stevens_Ann</option>   
+</select>
+
+
+<br />
+
+<input type="submit" value="Display Report">
+<br />
+</form>
+</body>
+</html>

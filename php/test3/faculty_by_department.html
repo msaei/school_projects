@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Faculty by Department</title>
+<style type="text/css">
+#main_heading {
+    text-align: center;
+}
+</style>
+</head>
+<body>
+<form action="faculty_by_department.php" method="post">
+<h1 id="main_heading">Faculty by Department</h1>
+
+List faculty in this department
+<select name="departments">
+   <option value="1">Business</option>
+   <option value="2">Science</option>
+   <option value="3">English</option>
+   <option value="4">Math</option>
+   <option value="5">Humanities</option>
+</select>
+whose salary is greater than this
+<input name="salary" type="text" size="12" maxlength="12" />
+
+<br />
+
+<input type="submit" value="Display Report">
+<br />
+</form>
+</body>
+</html>
