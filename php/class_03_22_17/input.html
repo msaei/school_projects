@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Form</title>
+</head>
+<body>
+<form action="http://students.hcc-business.com/saeikhalili/database_program.php"
+      method="post";>
+
+First Name<input type="text" name="firstname" size="15" maxlength="15" /><br />
+Last Name<input type="text" name="lastname" size="15" maxlength="15" /><br />
+Testbox1<input type="text" name="textbox1" size="15" maxlength="15" /><br />
+Testbox2<input type="text" name="textbox2" size="15" maxlength="15" /><br />
+
+<h2 Favorite Sports </h2>
+<select name="sports[]" multiple="multiple" size="4">
+    <option value="baseball">baseball</option>
+    <option value="football">football</option>
+    <option value="basketball">basketball</option>
+	<option value="soccer">soccer</option>
+</select>
+
+<select name="cities[]" multiple="multiple" size="4">
+    <option value="bridgeport">Bridgeport</option>
+    <option value="milford">Milford</option>
+    <option value="norwalk">Norwalk</option>
+	<option value="newhaven">New Haven</option>
+</select>
+
+<br />
+<br />
+
+<input type="submit" value="Submit Data" /><br />
+</form>
+
+
+</body>
+</html>
